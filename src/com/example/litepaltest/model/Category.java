@@ -3,7 +3,9 @@ package com.example.litepaltest.model;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Category {
+import org.litepal.crud.DataSupport;
+
+public class Category extends DataSupport {
 
     private int id;
 

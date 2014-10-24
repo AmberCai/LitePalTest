@@ -9,7 +9,9 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-public class News {
+import org.litepal.crud.DataSupport;
+
+public class News extends DataSupport {
     // id这个字段可写可不写，因为litepal会自动生成id这个主键
     private int id;
     private String title;
