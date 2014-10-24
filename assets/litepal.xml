@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="demo" ></dbname>
+
+    <!-- 注意：每增加一个类，或者说每改动一个版本，版本号要加1 -->
+    <version value="7" ></version>
+
+    <list>
+    <!-- 注意：每增加一个类，都应该在此处注册，且应该用完整类名 -->
+        <mapping class="com.example.litepaltest.model.News"></mapping>
+        <mapping class="com.example.litepaltest.model.Comment"></mapping>
+        <mapping class="com.example.litepaltest.model.Introduction"></mapping>
+        <mapping class="com.example.litepaltest.model.Category"></mapping>
+    </list>
+</litepal>
